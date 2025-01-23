@@ -1,0 +1,13 @@
+    private ArrayList<String> matched = new ArrayList<String>();
+    
+    public Player(String name) {
+        this.name = name;
+        matched.add(name);
+        
+    }
+    public void matched(String pname){
+        matched.add(pname);
+    }
+    public ArrayList<String> getMatchedP() {
+        return matched;
+    }

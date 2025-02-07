@@ -1,0 +1,13 @@
+ private int id;
+    private String Student;
+    
+    public Student(int id,String Student) {
+        this.id = id;
+        this.Student = Student;
+    }
+    
+    public int getId() { return id; }
+    
+    public String toString() {
+        return Student;
+    }
